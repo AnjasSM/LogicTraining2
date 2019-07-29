@@ -17,4 +17,4 @@ triangle = (param) => {
 
 }
 
-console.log(triangle(input))
+console.log(triangle(input));

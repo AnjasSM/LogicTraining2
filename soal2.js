@@ -1,3 +1,6 @@
+const inputWord = 'bootcamp'
+const inputLetter = 'o'
+
 countChar = (word, letter) => {
     let output = 0;
     for(let i = 0; i < word.length; i++) {
@@ -8,4 +11,4 @@ countChar = (word, letter) => {
     return output
 }
 
-console.log(countChar('bootcamp', 'o'))
+console.log(countChar('bootcamp', 'o'));
